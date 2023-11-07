@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.bg-check {
+    background-color: gray;
+}
+
+.rel {
+    position: relative;
+}
+
+.abs {
+    position: absolute;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcb {
+    justify-content: space-between;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.ofh {
+    overflow: hidden;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.h200 {
+    height: 200px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w1200 {
+    width: 1200px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.swiper-wrapper {
+    width: 100000px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+
+
+.swiper-slide {
+    opacity: 0;
+    transition: 2s;
+}
+
+.swiper-slide.on {
+    opacity: 1.0;
+    z-index: 10000;
+}
+
+.swiper-slide a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* relative 는 부모의 height 가 설정되있을 경우 사용 가능  */
+}
